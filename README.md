@@ -16,7 +16,7 @@ Tested on CachyOS with kernel `7.2.10-cachyos` (Clang + ThinLTO) on an AMD Ryzen
 | Loads automatically at boot | ✅ Works |
 | Rebuilds on kernel updates (DKMS) | ✅ Works |
 | 4K60 / HDR input | ❓ Untested; may not work on the LG4K |
-| HDMI pass-through output | ❓ Untested |
+| HDMI pass-through output | ✅ Works |
 | Suspend / resume | ❓ Untested |
 | Scaling | ❌ Capture resolution must match the input resolution |
 | "No signal" placeholder image | ❌ No frames are delivered when nothing is plugged in |
@@ -37,7 +37,7 @@ Tested on CachyOS with kernel `7.2.10-cachyos` (Clang + ThinLTO) on an AMD Ryzen
 ### Arch Linux / CachyOS / Arch-based distros
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/lg4k-linux.git
+git clone https://github.com/Acidz67/lg4k-linux.git
 cd lg4k-linux
 sudo ./install-arch.sh
 ```
